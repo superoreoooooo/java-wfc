@@ -38,10 +38,10 @@ public class TileMapTest implements TileMapAdapter.TileAdapter<TileWithIdAndName
 
     private static final int[] TILE_MAP = {
             0, 0, 0, 0, 0,
-            0, 1, 1, 1, 0,
-            0, 1, 2, 1, 0,
-            0, 1, 1, 1, 0,
-            0, 0, 0, 0, 0,
+            0, 1, 1, 1, 1,
+            0, 1, 2, 1, 2,
+            0, 1, 1, 1, 1,
+            0, 0, 0, 0, 1,
     };
 
     private static final int TILE_MAP_WIDTH_NEW = 10;
